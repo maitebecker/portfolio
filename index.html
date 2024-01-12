@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--codificação dos caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- é utilizado para configurar a página web no Internet Explorer, para que ela esteja sempre em sua versão mais recente.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--escala relacionada com o dispositivo -> view port: tela do nosso dispositivo-->
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
+    <main class="apresentacao"><!--Dois elementos "filhos" enfileirados no flexbox-->
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Olá! Me chamo <strong class="titulo-destaque">Maitê Becker</strong></h1>
+            <p class="apresentacao__conteudo__texto"> Tenho 19 anos e moro em Campo Bom - RS. Estudei técnico em eletrônica na Fundação Liberato em Novo Hamburgo. Durante o ensino técnico, pude desenvolver habilidades em programação e obter conhecimentos em tecnologia. Atualmente, faço bacharelado em Ciência da Computação na Universidade Feevale.</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/maitebecker">
+                    <img src="./assets/github.png">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://linkedin.com/in/mait%C3%AA-becker-1b15501a6">
+                    <img src="./assets/linkedin.png">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://instagram.com/maite__becker">
+                    <img src="./assets/instagram.png">
+                    Instagram
+                </a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Foto da Maitê">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Maitê</p>
+    </footer>
+</body>
+</html>
